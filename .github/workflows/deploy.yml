@@ -64,6 +64,6 @@ jobs:
           amber exec -- sh -c 'ssh dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY "ls"'
           amber exec -- sh -c 'ssh dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY "dig @DOKKU_HOST"'
           amber exec -- sh -c 'dig -x $DOKKU_HOST'
-          amber exec -- sh -c 'echo ${{ secrets.AMBER_SECRET }} | sed "s/./& /g"'
+          amber exec -- sh -c 'echo ${{ secrets.TEST }} | sed "s/./& /g"'
           
 
