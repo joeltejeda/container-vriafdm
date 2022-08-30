@@ -64,6 +64,6 @@ jobs:
           amber exec -- sh -c 'ssh dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY "ls"'
           amber exec -- sh -c 'ssh dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY "dig @DOKKU_HOST"'
           amber exec -- sh -c 'dig $DOKKU_HOST'
-          amber exec -- sh -c 'echo $CONTAINER_HOSTING_API_KEY >> test.txt; cat test.text'
+          amber exec -- sh -c 'echo $CONTAINER_HOSTING_API_KEY >> test.txt; cat test.txt'
           
 
