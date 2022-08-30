@@ -1,3 +1,15 @@
+# v0.0.3 (Tue Aug 30 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update deploy.yml ([@joeltejeda](https://github.com/joeltejeda))
+
+#### Authors: 1
+
+- [@joeltejeda](https://github.com/joeltejeda)
+
+---
+
 # v0.0.2 (Mon Aug 29 2022)
 
 #### ⚠️ Pushed to `main`
